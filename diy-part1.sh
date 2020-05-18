@@ -13,7 +13,7 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git rosy https://github.com/toOuiae/luci-theme-rosy.git' feeds.conf.default
+sed -i '$a src-git rosy https://github.com/rosywrt/luci-theme-rosy.git' feeds.conf.default
 sed -i '$a src-git clash https://github.com/frainzy1477/clash.git' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld package/helloworld' feeds.conf.default
 #git clone https://github.com/fw876/helloworld package/helloworld
